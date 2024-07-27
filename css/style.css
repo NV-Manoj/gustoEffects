@@ -1,0 +1,451 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.link1 {
+  text-decoration: none;
+  color: white;
+}
+.link1:hover {
+  color: darkturquoise;
+  text-decoration: underline;
+}
+
+.header {
+  float: left;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  position: fixed;
+  padding: 0em auto;
+}
+
+.Menu li {
+  display: inline;
+  text-transform: capitalize;
+  padding: 0em 2em 0em 2em;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 450;
+}
+
+.HeroSection {
+  float: left;
+  width: 100%;
+  background-image: url("../images/food2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  text-align: center;
+  height: auto;
+}
+.HeroSection h2 {
+  text-transform: capitalize;
+  font-family: "Pacifico", cursive;
+  font-size: 120px;
+  font-weight: 400;
+  padding: 1.7em 0em 0em 0em;
+}
+
+.HeroSection p {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+/* Hero section ends */
+
+.special_section {
+  float: left;
+  width: 100%;
+}
+
+.special_section h3 {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: rgb(13, 155, 107);
+  font-size: 30px;
+  font-family: "Merriweather", serif;
+  font-weight: 200;
+}
+
+.special1 {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+}
+
+.special2 {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+}
+
+.special3 {
+  float: right;
+  width: 33.3%;
+  text-align: center;
+}
+
+.special1 h4,
+.special2 h4,
+.special3 h4 {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+
+.special1 p,
+.special2 p,
+.special3 p {
+  text-align: center;
+}
+.pic {
+  width: 90%;
+  border-radius: 3%;
+}
+
+.pic:hover {
+  box-shadow: 4px 8px 22px rgb(0, 0, 0);
+}
+
+/* Special Ends  */
+
+/* Our Story Section Begins */
+.story_sec {
+  float: left;
+  width: 100%;
+  background-color: rgb(217, 214, 214);
+}
+
+.story_right {
+  float: right;
+  width: 50%;
+  text-align: center;
+}
+.story_right h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-decoration-color: aqua;
+}
+
+.story_right p {
+  text-align: center;
+  font-size: 18px;
+  padding: 0em 3em 0em 0em;
+}
+.story_left img {
+  width: 110%;
+  padding: 0em 0em 0em 2em;
+}
+.story_left {
+  float: left;
+  width: 40%;
+  padding: 1em 1em 1em 1em;
+}
+/* Story Ends */
+
+/* Menu Section Starts */
+.menu_items {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.menu_items h2 {
+  font-family: "Raleway", sans-serif;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 400;
+  text-decoration-color: aquamarine;
+}
+/*Menu Left Starts  */
+.menu_left {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.left_heading {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: rgb(4, 146, 99);
+  font-size: 28px;
+}
+
+.menu_left h4 {
+  text-align: left;
+  padding: 0em 2em 0em 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.menu_left p {
+  text-align: left;
+  text-transform: capitalize;
+  padding: 0em 2.6em 0em 2.6em;
+}
+/* Left Menu ends */
+/* right menu starts */
+.menu_right {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.right_heading {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: rgb(4, 146, 99);
+  font-size: 28px;
+}
+.menu_right h4 {
+  text-align: left;
+  padding: 0em 2em 0em 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.menu_right p {
+  text-align: left;
+  text-transform: capitalize;
+  padding: 0em 2.6em 0em 2.6em;
+}
+/* Right Menu ends */
+
+/* down Left Menu  Starts */
+.menu_downLeft {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.dleft_heading {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: rgb(4, 146, 99);
+  font-size: 28px;
+}
+
+.menu_downLeft h4 {
+  text-align: left;
+  padding: 0em 2em 0em 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.menu_downLeft p {
+  text-align: left;
+  text-transform: capitalize;
+  padding: 0em 2.6em 0em 2.6em;
+}
+/*  down left Menu ends */
+
+/* Right down menu Starts */
+.menu_downRight {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 0em 0em 6em 0em;
+}
+
+.dright_heading {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: rgb(4, 146, 99);
+  font-size: 28px;
+}
+
+.menu_downRight h4 {
+  text-align: left;
+  padding: 0em 2em 0em 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.menu_downRight p {
+  text-align: left;
+  text-transform: capitalize;
+  padding: 0em 2.6em 0em 2.6em;
+}
+
+/* Right down menu ends */
+
+/* Menu section Ends */
+
+/* Images Section Starts */
+.imagess {
+  float: left;
+  width: 100%;
+}
+.pic1,
+.pic2,
+.pic3,
+.pic4 {
+  float: left;
+  width: 25%;
+}
+
+#pic {
+  width: 25%;
+  height: 250px;
+  padding: 0em 0em 6em 0em;
+}
+
+/* Images Section ends */
+
+/* Chef Section Starts */
+.cheChef_section {
+  float: left;
+  width: 100%;
+}
+
+.chef {
+  float: left;
+  width: 50%;
+}
+
+.chef h3 {
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: rgb(14, 209, 144);
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  font-weight: 300;
+  padding: 0em 0em 0em 2em;
+}
+.chef p {
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  padding: 0em 0em 0em 2.5em;
+}
+.chefImage {
+  float: right;
+  width: 40%;
+  padding: 2em 0em 0em 0em;
+}
+.Picc {
+  height: 280px;
+  width: 90%;
+}
+.Picc:hover {
+  box-shadow: 14px 8px rgb(192, 189, 189);
+}
+
+/* Chef Section ends */
+
+/* Form Section begins  */
+.Form {
+  float: left;
+  width: 100%;
+  background-color: rgb(212, 211, 211);
+}
+
+.Form h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.leftofDiv {
+  float: left;
+  width: 40%;
+  padding: 0em 0em 0em 3em;
+}
+
+.rightOfDiv {
+  float: right;
+  width: 50%;
+  padding: 0em 0em 0em 0em;
+}
+
+#name,
+#email {
+  margin: 1em 0em 1em 0em;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  font-weight: 400;
+  background: whitesmoke;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.Per_Name,
+.Per_Mail {
+  font-size: 20px;
+}
+
+#textbox {
+  float: left;
+  margin: 1em 0em 1em 0em;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  font-weight: 400;
+  background: whitesmoke;
+  width: 100%;
+  padding: 30px;
+  border: 1.2px solid gray;
+}
+
+.button {
+  border: 1px solid black;
+  border-radius: 20%;
+  padding: 10px;
+}
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Form section Ends */
+
+/*Footer Section Begins*/
+.footer {
+  float: left;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.footer_right {
+  float: right;
+  display: inline;
+  text-align: center;
+}
+
+.footer_left p {
+  float: left;
+  display: inline;
+  text-align: center;
+}
+.social {
+  padding: 0em 1em 0em 1em;
+}
+
+.social li {
+  display: inline;
+  padding: 1em 1em 1em 1em;
+  border: 1px solid white;
+  border-radius: 40%;
+}
+/* Footer Ends */

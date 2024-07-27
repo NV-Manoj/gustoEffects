@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gusto_clone</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css"></link>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#specials").mouseenter(function(){
+    $(".special1").fadeIn(1000);
+    $(".special2").fadeIn(2200);
+    $(".special3").fadeIn(2400);
+  });
+});
+
+$(document).ready(function(){
+  $("#Menu_list").mouseenter(function(){
+    $("#bkst").slideDown(1000);
+    $("#mncr").slideDown(1000); 
+    $("#dnnr").slideDown(1400); 
+    $("#dsrt").slideDown(1400); 
+  });
+});
+
+</script>
+
+
+</head>
+
+<body>
+<div class="header">
+    <div class="Menu">
+        <ul>
+            <li><a class="link1" href="#Main">Home</a></li>
+            <li><a class="link1" href="#specials">Specials</a> </li>
+            <li><a class="link1" href="#story">Story</a></li>
+            <li><a class="link1" href="#Menu_list">Our Menu</a></li>
+            <li><a class="link1" href="#chefDetails">Chef</a></li>
+            <li><a class="link1" href="#Contact">Contact Us</a></li>
+        </ul>
+    </div>
+</div>
+<!-- Header Ends -->
+
+<div class="HeroSection" id="Main" >
+    <h2>Gusto</h2>
+    <p>The Art of Flavouring...</p>
+</div>
+<!--Hero Ends-->
+<div class="special_section" id="specials">
+    <h3>Our Specials</h3>
+
+    <div class="special1" style="display: none;">
+        <h4>Noodles</h4>
+        <img class="pic" src="images/specials/item-1.jpg">
+        <p>Lorem ipsum harum excepturi quia est aut quaerat quo corporis quae expedita officia</p>
+    </div>
+
+    <div class="special2" style="display: none;">
+        <h4>Pizza</h4>
+        <img class="pic" src="images/specials/item-2.jpeg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio harum excepturi quia est aut quaerat quo corporis quae expedita officia</p>
+    </div>
+
+    <div class="special3" style="display: none;">
+        <h4>Pasta</h4>
+        <img class="pic" src="images/specials/item-3.jpeg">
+        <p>Lorem ipsum dolor sit amet Distinctio harum excepturi quia est aut quaerat quo corporis quae expedita officia</p>
+
+    </div>
+</div>
+
+<!-- Special Ends  -->
+
+<!-- Story Starts -->
+<div class="story_sec" id="story" >
+    <div class="story_right">
+        <h2>Our story</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+    </div>
+
+    <div class="story_left">
+        <img class="img" src="./images/Food.jpeg">
+    </div>
+</div>
+<!-- Story Section ends  -->
+
+<!-- Menu Section starts -->
+<div class="menu_items" id="Menu_list">
+    <h2>Our Menu</h2>
+    <div class="menu_left"  id="bkst" style="display: none;">
+        <h3 class="left_heading">
+            Breakfast & Starters 
+        </h3>
+        <h4>Tortellini Skewers</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+        
+        <h4>Fried Ravioli</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+    
+        <h4>Wild Mushroom Arancini</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+        
+        <h4>Mozzarella Sticks</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>  
+    </div>
+
+    <div class="menu_right" id="mncr" style="display: none;">
+        <h3 class="right_heading" >
+            Main Course
+        </h3>
+        <h4>Roast Stuffed Chicken</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+        
+        <h4>Chicken & Mushroom Pasta</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+    
+        <h4>Beef Lasagne</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+        
+        <h4>Chicken Goujons</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>  
+    </div>
+
+    <div class="menu_downLeft" id="dnnr" style="display: none;">
+        <h3 class="dleft_heading">
+            dinner
+        </h3>
+        <h4>Sesame-Ginger Beef</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+        
+        <h4>Crispy Fried Chicken</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+    
+        <h4>Mongolian Shrimp & Broccoli</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+        
+        <h4>Spicy Coconut Salmon</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>  
+    </div>
+
+    <div class="menu_downRight" id="dsrt" style="display: none;">
+        <h3 class="dright_heading">
+            Desserts
+        </h3>
+        <h4>Sesame-Ginger Beef</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+        
+        <h4>Crispy Fried Chicken</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+    
+        <h4>Mongolian Shrimp & Broccoli</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>
+        
+        <h4>Spicy Coconut Salmon</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.</p>  
+    </div>
+
+</div>
+<!-- Menu Section ends -->
+
+<!-- Immages Section Starts -->
+<div class="imagess">
+    <img id="pic" class="pic1" src="./images/Extra/1.jpeg">
+    <img id="pic" class="pic2" src="./images/Extra/2.jpeg">
+    <img id="pic" class="pic3" src="./images/Extra/3.jpeg">
+    <img id="pic" class="pic4" src="./images/Extra/4.jpeg">
+</div>
+<!-- Images Section Ends -->
+
+<!-- Chef Section Starts -->
+<div class="Chef_section">
+    <div class="chef" id="chefDetails">
+        <h3>Meet Our Chef</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>    
+    </div>
+
+    <div class="chefImage">
+        <img  class="Picc" src="./images/chef.jpeg">
+    </div>
+
+</div>
+
+<!-- Chef Section Ends -->
+
+<div class="Form" id="Contact">
+    <h3>Contact Us</h3>
+    <div class="leftofDiv">
+        <form  method="post" action="contact.php">
+                <label class="Per_Name" for="pname">Name:<br/>
+                    <input name="pname" type="text" id="name" placeholder="Your Name"><br/>
+                </label>
+
+                <label class="Per_Mail" for="pmail">E-Mail<br/>
+                    <input name="pmail" type="text" id="email" placeholder="Your Email"><br/>
+                </label>
+                <input textarea name="pMessage"  id="textbox" cols="300" rows="300" placeholder="Enter Message"></textarea><br><br>
+
+                <button name="submit" class="button" type="submit">Submit</button>
+
+        
+        </form>
+    </div>
+
+    <div class="rightOfDiv">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3803.832210145909!2d78.45278407398497!3d17.563173497719625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8f9e56c187c5%3A0x4ae6789c2b9c5baf!2sNarsimha%20Reddy%20Engineering%20College%20(NRCM)!5e0!3m2!1sen!2sin!4v1709787113549!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+<!-- Form Section Ends -->
+
+
+<div class="footer">
+    <div class="footer_left">
+        <p>© 2017 Gusto. All rights reserved. Design by TemplateWire</p>
+    </div>
+
+    <div class="footer_right">
+        <ul class="social">
+            <li><i class="fa fa-facebook-f" ></i></li>
+            <li><i class="fa fa-instagram"></i></li>
+            <li><i class="fa fa-youtube"></i></li>
+            <li><i class="fa fa-linkedin"></i></li> 
+        </ul>
+    </div>
+</div>
+
+<!-- Footer Ends -->
+</body>
+</html>
